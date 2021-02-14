@@ -1,0 +1,23 @@
+@font-face {
+	font-family: 'PTSerif-Bold';
+	src: url('../MyProject_webheroschool/fonts/PTSerif-Bold.eot');
+	src: local('вє'), url('../MyProject_webheroschool/fonts/PTSerif-Bold.woff') format('woff'), url('../MyProject_webheroschool/fonts/PTSerif-Bold.ttf') format('truetype'), url('../MyProject_webheroschool/fonts/PTSerif-Bold.svg') format('svg');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Roboto-Medium';
+	src: url('../MyProject_webheroschool/fonts/Roboto-Medium.eot');
+	src: local('вє'), url('../MyProject_webheroschool/fonts/Roboto-Medium.woff') format('woff'), url('../MyProject_webheroschool/fonts/Roboto-Medium.ttf') format('truetype'), url('../MyProject_webheroschool/fonts/Roboto-Medium.svg') format('svg');
+	font-weight: 500;
+	font-style: normal;
+}
+
+.ptserif-bold {
+    font-family: 'PTSerif-Bold';
+}
+
+.roboto-medium {
+    font-family: 'Roboto-Medium';
+}
