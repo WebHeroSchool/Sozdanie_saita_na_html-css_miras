@@ -1,5 +1,30 @@
+.body {
+    margin: 0;
+}
+
+.wrapper {
+    margin: auto;
+    width: 81%;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo, .menu {
+    display: inline-block;
+}
+
 .logo {
     font-family: 'PT Serif', serif;
+    margin-right: 63%;
+    padding: 40px 0;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
 }
 
 .main-content__title {
@@ -8,6 +33,11 @@
 
 .menu__item {
     font-family: 'Roboto', sans-serif;
+    padding: 0 13px;
+}
+
+.menu__item:last-child {
+    padding-right: 0;
 }
 
 .main-content__subtitle {
