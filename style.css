@@ -17,9 +17,32 @@
 }
 
 .logo {
-    font-family: 'PT Serif', serif;
-    margin-right: 63%;
+    position: relative;
     padding: 40px 0;
+    padding-left: 44px;
+    font: bold 24px/31px 'PT Serif-bold', arial, helvetica, sans-serif;
+}
+
+.logo__circle {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    opacity: .7;
+}
+
+.logo__circle_color_dark-blue {
+    background: #0056ec;
+    transform: translateY(-50%);
+}
+
+.logo__circle_color_blue {
+    left: 8px;
+    top: 56%;
+    background: #c8dbfb;
 }
 
 .menu {
@@ -28,11 +51,11 @@
 }
 
 .main-content__title {
-    font-family: 'PT Serif', serif;
+    font-family: 'PT Serif-Bold', Arial, Helvetica, sans-serif;
 }
 
 .menu__item {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-Medium', sans-serif;
     padding: 0 13px;
 }
 
@@ -41,9 +64,9 @@
 }
 
 .main-content__subtitle {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-Medium', sans-serif;
 }
 
 .main-content__button {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto-Medium', sans-serif;
 }
