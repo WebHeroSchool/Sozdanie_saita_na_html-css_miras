@@ -4,12 +4,13 @@
 
 .wrapper {
     margin: auto;
-    width: 81%;
+    width: 80%;
 }
 
 .header {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 140px;
 }
 
 .logo, .menu {
@@ -18,15 +19,15 @@
 
 .logo {
     position: relative;
-    padding: 40px 0;
-    padding-left: 44px;
-    font: bold 24px/31px 'PT Serif-bold', arial, helvetica, sans-serif;
+    padding: 32px 0;
+    padding-left: 42px;
+    font: bold 24px/31.8px 'PT Serif-bold', arial, helvetica, sans-serif;
 }
 
 .logo__circle {
     position: absolute;
     left: 0;
-    top: 50%;
+    top: 48%;
     transform: translateY(-50%);
     width: 28px;
     height: 28px;
@@ -69,7 +70,7 @@
     content: '';
     left: 0;
     width: 100%;
-    height: 3px;
+    height: 2.4px;
     background: #0056ec;
     opacity: 0;
     transition: opacity .5s;
@@ -80,17 +81,73 @@
 }
 
 .menu__item:last-child {
-    margin-right: 0;
+    margin-right: 5px;
 }
 
-.main-content__title {
-    font-family: 'PT Serif-Bold', Arial, Helvetica, sans-serif;
+.main {
+    padding: 72px 63% 132px 0;
+    background: bottom right no-repeat url(img/Frame.svg);
+    background-size: 769px 651px;
 }
 
-.main-content__subtitle {
-    font-family: 'Roboto-Medium', sans-serif;
+.main__title {
+    margin: 0 0 37px -3px;
+    font: bold 66px/87px 'PT Serif-Bold', arial, helvetica, sans-serif;
 }
 
-.main-content__button {
-    font-family: 'Roboto-Medium', sans-serif;
+.main__title-text_highlight {
+    background: #ecf3ff;
+}
+
+.main__subtitle {
+    margin: 0 131px 44px 0;
+    font: 22px/26px 'Roboto-Medium', arial, helvetica, sans-serif;
+}
+
+.main__button {
+    display: inline-block;
+    font: 18px/21px 'Roboto-Medium', arial, helvetica, sans-serif;
+    color: #fff;
+    background: #0056ec;
+    padding: 15px 34px 18px 19px;
+    text-decoration: none;
+    border-radius: 3px;
+    transition: opacity .5s;
+}
+
+.main__button:hover {
+    opacity: .5;
+}
+
+.footer {
+    margin-top: 137px;
+}
+
+.footer__circle {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3px;
+}
+
+.footer__circle-num1 {
+    width: 8px;
+    height: 8px;
+    background: #c8dbfb;
+    border-radius: 50%;
+}
+
+.footer__circle-num2 {
+    width: 8px;
+    height: 8px;
+    background: #c8dbfb;
+    border-radius: 50%;
+}
+
+.footer__circle-num3 {
+    width: 8px;
+    height: 8px;
+    background: #c8dbfb;
+    border-radius: 50%;
 }
