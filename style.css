@@ -132,10 +132,13 @@
 }
 
 .footer__circle-num1 {
+    position: absolute;
     width: 8px;
     height: 8px;
     background: #c8dbfb;
     border-radius: 50%;
+
+    animation: circle-go_1 2s linear 1 forwards;
 }
 
 .footer__circle-num2 {
@@ -146,10 +149,73 @@
 }
 
 .footer__circle-num3 {
+    position: absolute;
     width: 8px;
     height: 8px;
     background: #c8dbfb;
     border-radius: 50%;
+
+    animation: circle-go_3 2s linear 1 forwards;
+}
+
+@-webkit-keyframes circle-go_1 {
+    0% {
+        left: 930px;
+    }
+    
+    50% {
+        left: 10px;
+        transform: scale(3);
+    }
+
+    100% {
+        left: 930px;
+    }
+}
+
+@keyframes circle-go_1 {
+    0% {
+        left: 930px;
+    }
+    
+    50% {
+        left: 10px;
+        transform: scale(3);
+    }
+
+    100% {
+        left: 930px;
+    }
+}
+
+@-webkit-keyframes circle-go_3 {
+    0% {
+        right: 930px;
+    }
+    
+    50% {
+        right: 10px;
+        transform: scale(3);
+    }
+
+    100% {
+        right: 930px;
+    }
+}
+
+@keyframes circle-go_3 {
+    0% {
+        right: 930px;
+    }
+    
+    50% {
+        right: 10px;
+        transform: scale(3);
+    }
+
+    100% {
+        right: 930px;
+    }
 }
 
 @media (max-width: 1366px) {
