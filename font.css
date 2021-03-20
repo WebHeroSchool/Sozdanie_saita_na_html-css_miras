@@ -1,15 +1,15 @@
 @font-face {
-	font-family: 'PT Serif-Bold';
-	src: url('../Sozdanie_saita_na_html-css_miras/fonts/PTSerif-Bold.eot');
-	src: local('вє'), url('../Sozdanie_saita_na_html-css_miras/fonts/PTSerif-Bold.woff') format('woff'), url('../Sozdanie_saita_na_html-css_miras/fonts/PTSerif-Bold.ttf') format('truetype'), url('../Sozdanie_saita_na_html-css_miras/fonts/PTSerif-Bold.svg') format('svg');
-	font-weight: 700;
-	font-style: normal;
+  font-family: 'PT Serif-Bold';
+  src: url('fonts/PTSerif-Bold.eot');
+  src: local('вє'), url('fonts/PTSerif-Bold.woff') format('woff'), url('fonts/PTSerif-Bold.ttf') format('truetype'), url('fonts/PTSerif-Bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Roboto-Medium';
-	src: url('../Sozdanie_saita_na_html-css_miras/fonts/Roboto-Medium.eot');
-	src: local('вє'), url('../Sozdanie_saita_na_html-css_miras/fonts/Roboto-Medium.woff') format('woff'), url('../Sozdanie_saita_na_html-css_miras/fonts/Roboto-Medium.ttf') format('truetype'), url('../Sozdanie_saita_na_html-css_miras/fonts/Roboto-Medium.svg') format('svg');
-	font-weight: 500;
-	font-style: normal;
+  font-family: 'Roboto-Medium';
+  src: url('fonts/Roboto-Medium.eot');
+  src: local('вє'), url('fonts/Roboto-Medium.woff') format('woff'), url('fonts/Roboto-Medium.ttf') format('truetype'), url('fonts/Roboto-Medium.svg') format('svg');
+  font-weight: 500;
+  font-style: normal;
 }
